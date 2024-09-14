@@ -1,0 +1,28 @@
+let dayOfWeek = 3;
+let dayName;
+
+switch (dayOfWeek) {
+    case 1:
+        dayName = "Sunday";
+        break;
+        case 2:
+        dayName = "Monday";
+        break;
+        case 3:
+        dayName = "Tuseday";
+        break;
+        default:
+        dayName = "Invalid day";
+}
+console.log('Today is ' + dayName);
+
+
+
+
+
+let count = 1
+
+while (count <= 5) {
+    console.log( 'count is:', count);
+    count++;
+}
